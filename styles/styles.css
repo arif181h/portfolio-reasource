@@ -1,0 +1,134 @@
+/* font related styles */
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400,500,600,700,800;
+}
+/* nav related syles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.nav-title{
+Font-weight: 800;
+Font-size: 45px;
+color:rgb(24, 24, 24);
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li >a{
+    text-decoration: none;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    border: none;
+    padding: 10px;
+}
+/* banner related styles */
+.header{
+    background-color:#FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-bottom: 50px;
+}
+.banner{
+    padding: 120px 120px 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-description{
+color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+width: 500px;
+}
+
+/* about section related */
+
+.about{
+border-radius: 10px;
+background: rgb(255, 248, 243);
+max-width: 1100px;
+margin:  0 auto;
+padding: 150px;
+}
+.about-title{
+color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+}
+.about-description, .what-description{
+color: rgb(117, 117, 117);
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* what i do section */
+.what{
+    margin-top: 60px;
+    padding: 60px;
+}
+.what-titlee{
+color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 40px;
+}
+.what-description{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.what-descriptione{
+    
+    text-align: center;
+    
+    padding: 20px 150px;
+}
+.what-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.what-div{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    width: 220px;
+    padding: 30px;
+}
+.what-title{
+
+color: rgb(24, 24, 24);
+font-size: 20px;
+font-weight: 700;
+text-align: left;
+
+}
