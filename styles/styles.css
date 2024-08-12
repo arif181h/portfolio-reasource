@@ -132,3 +132,41 @@ font-weight: 700;
 text-align: left;
 
 }
+
+
+/* resume sectioln */
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.resume{
+    padding: 30px 110px;
+}
+.section-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.Dounload-cv{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    background: rgb(255, 248, 243);
+    padding: 130px 230px;
+}
+.footer-description{
+    max-width: 550px;
+}
+form input[type="text"], input[type="email"],textarea{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 20px 200px 20px 10px;
+}
